@@ -8,13 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner input1 = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.printf("Acesta este primul numar ales : ");
-        int a = input1.nextInt();
+        int a = input.nextInt();
 
-        Scanner input2 = new Scanner(System.in);
         System.out.printf("Acesta este al doilea numar ales : ") ;
-        int b = input2.nextInt();
+        int b = input.nextInt();
 
         if(a<b){
             System.out.println("\n" + b + " este mai mare decat " + a);}
